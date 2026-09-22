@@ -781,38 +781,107 @@
     "assistant professor",
     "associate professor"
   ],
-  "target_departments": {
-    "electrical_engineering": [
-      "electrical engineering",
-      "electrical and electronics engineering",
-      "electrical & electronics engineering",
-      "dept. of electrical engineering",
-      "department of electrical engineering",
-      "school of electrical engineering"
+    "target_departments": {
+    "environmental_engineering": [
+      "environmental engineering",
+      "environmental science and engineering",
+      "environmental science & engineering",
+      "dept. of environmental engineering",
+      "department of environmental engineering",
+      "school of environmental science and engineering",
+      "environmental science and engineering department"
     ],
-    "electronics_communication": [
-      "electronics and communication engineering",
-      "electronics & communication engineering",
-      "electronics and communication",
-      "electronics & communication",
-      "electronics engineering",
-      "electronics and electrical communication engineering",
-      "communication engineering",
-      "dept. of ece",
-      "department of ece",
-      "school of electronics"
+    "environmental_science": [
+      "environmental science",
+      "earth and environmental sciences",
+      "earth sciences",
+      "environmental studies",
+      "department of environmental science"
     ],
-    "computer_science": [
-      "computer science and engineering",
-      "computer science & engineering",
-      "computer science",
-      "dept. of cse",
-      "department of cse",
-      "school of computer science",
-      "department of computer science",
-      "computing"
-    ]
+    "civil_engineering": [
+      "civil engineering",
+      "civil and environmental engineering",
+      "dept. of civil engineering",
+      "department of civil engineering",
+      "school of civil engineering",
+      "civil infrastructure engineering"
+    ],
+    "sustainability": [
+      "sustainability",
+      "sustainable technology",
+      "sustainable development",
+      "climate and sustainability",
+      "center for sustainability",
+      "centre for sustainability"
+    ],
+    "polymer_engineering": [
+      "polymer science",
+      "polymer engineering",
+      "polymer science and engineering",
+      "polymer and process engineering",
+      "polymer technology",
+      "department of polymer",
+      "dept. of polymer"
+    ],
+    "chemical_engineering": [
+      "chemical engineering",
+      "dept. of chemical engineering",
+      "department of chemical engineering",
+      "school of chemical engineering",
+      "chemical and biochemical engineering"
+    ],
+    "rural_development": [
+      "rural development",
+      "rural technology",
+      "centre for rural development",
+      "center for rural development",
+      "rural development and technology",
+      "school of rural development"
+    ],
+    "nanotechnology": [
+      "nanotechnology",
+      "nanoscience",
+      "nano science",
+      "nanoscience and technology",
+      "centre for nanotechnology",
+      "center for nanotechnology",
+      "school of nanoscience",
+      "materials and nanotechnology"
+    ],
+    "alternate_technology": [
+      "alternate hydrocarbon",
+      "alternative energy",
+      "alternate energy",
+      "renewable energy technology",
+      "appropriate technology",
+      "sustainable and alternate technology"
+    ], 
+    "rural_development": [
+      "rural development",
+      "rural technology",
+      "centre for rural development",
+      "center for rural development",
+      "rural development and technology",
+      "school of rural development",
+      "centre for technology alternatives for rural areas",
+      "center for technology alternatives for rural areas",
+      "ctara",
+      "technology for rural areas"
+    ],
+        "polymer_engineering": [
+      "polymer science",
+      "polymer engineering",
+      "polymer science and engineering",
+      "polymer and process engineering",
+      "polymer technology",
+      "department of polymer",
+      "dept. of polymer",
+      "membrane science",
+      "membrane technology",
+      "membrane separation"
+    ],
   },
+  
   "inclusion_keywords": [
     "faculty recruitment",
     "faculty position",
