@@ -14,8 +14,11 @@
       ],
       "force_rolling": true,
       "assume_department_families": [
-        "electrical_engineering",
-        "computer_science"
+
+        "environmental_engineering",
+        "environmental_science" ,
+	"civil_engineering" ,
+	"sustainability"
       ],
       "extra_domains": [
         "facapp.iitm.ac.in"
