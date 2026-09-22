@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 60
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment_final.outputs.page_url }}
 
     steps:
       - name: Check Barcelona midnight
@@ -103,16 +103,8 @@ jobs:
       - name: Checkout repository
         if: steps.schedule_gate.outputs.should_run == 'true'
         uses: actions/checkout@v6
-              - name: Checkout repository
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        uses: actions/checkout@v6
 
-      # NEW: deploy immediately with existing data, before scraping starts
       - name: Setup GitHub Pages (early)
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        uses: actions/configure-pages@v6
-
-            - name: Setup GitHub Pages (early)
         if: steps.schedule_gate.outputs.should_run == 'true'
         uses: actions/configure-pages@v6
 
@@ -124,7 +116,7 @@ jobs:
 
       - name: Deploy to GitHub Pages (early)
         if: steps.schedule_gate.outputs.should_run == 'true'
-        id: deployment
+        id: deployment_early
         uses: actions/deploy-pages@v5
 
       - name: Set up Node.js
@@ -206,7 +198,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         if: steps.schedule_gate.outputs.should_run == 'true'
-        id: deployment
+        id: deployment_final
         uses: actions/deploy-pages@v5
 
       - name: Summary
@@ -216,4 +208,4 @@ jobs:
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "- **Institutes with active openings:** ${{ steps.scrape.outputs.result_count }}" >> $GITHUB_STEP_SUMMARY
           echo "- **Deployed at:** $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Pages URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Pages URL:** ${{ steps.deployment_final.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
