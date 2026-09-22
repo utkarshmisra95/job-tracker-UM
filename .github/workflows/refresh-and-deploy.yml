@@ -28,7 +28,7 @@ jobs:
     timeout-minutes: 60
     environment:
       name: github-pages
-      url: ${{ steps.deployment_final.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
       - name: Check Barcelona midnight
@@ -104,21 +104,6 @@ jobs:
         if: steps.schedule_gate.outputs.should_run == 'true'
         uses: actions/checkout@v6
 
-      - name: Setup GitHub Pages (early)
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        uses: actions/configure-pages@v6
-
-      - name: Upload Pages artifact (early)
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        uses: actions/upload-pages-artifact@v5
-        with:
-          path: "."
-
-      - name: Deploy to GitHub Pages (early)
-        if: steps.schedule_gate.outputs.should_run == 'true'
-        id: deployment_early
-        uses: actions/deploy-pages@v5
-
       - name: Set up Node.js
         if: steps.schedule_gate.outputs.should_run == 'true'
         uses: actions/setup-node@v6
@@ -134,15 +119,19 @@ jobs:
             npm install
           fi
 
+      # continue-on-error means: if the scraper crashes (bad JSON, network
+      # issue, whatever), the workflow does NOT stop here. Whatever is
+      # already in data/jobs.json from the last successful run stays as-is,
+      # and the site still deploys below instead of going down.
       - name: Run scraper
         if: steps.schedule_gate.outputs.should_run == 'true'
         id: scrape
+        continue-on-error: true
         run: |
           echo "Starting scrape at $(date -u)"
           node scripts/scrape.js
           echo "Scrape completed at $(date -u)"
 
-          # Count results
           RESULT_COUNT=$(node -e "
             const d = JSON.parse(require('fs').readFileSync('data/jobs.json','utf8'));
             console.log((d.results||[]).length);
@@ -150,8 +139,20 @@ jobs:
           echo "result_count=${RESULT_COUNT}" >> $GITHUB_OUTPUT
           echo "Found ${RESULT_COUNT} institutes with active openings"
 
-      - name: Validate jobs.json
+      - name: Report scrape outcome
         if: steps.schedule_gate.outputs.should_run == 'true'
+        run: |
+          if [ "${{ steps.scrape.outcome }}" == "failure" ]; then
+            echo "::warning::Scraper failed this run. Deploying the site with the last known good data/jobs.json instead of failing the whole workflow."
+          else
+            echo "Scraper succeeded."
+          fi
+
+      # Only validate/commit new data if the scrape actually succeeded.
+      # If it failed, data/jobs.json is untouched from last time, so
+      # there's nothing new to validate or commit — just deploy what exists.
+      - name: Validate jobs.json
+        if: steps.schedule_gate.outputs.should_run == 'true' && steps.scrape.outcome == 'success'
         run: |
           node -e "
             const fs = require('fs');
@@ -174,7 +175,7 @@ jobs:
           "
 
       - name: Commit updated jobs.json
-        if: steps.schedule_gate.outputs.should_run == 'true'
+        if: steps.schedule_gate.outputs.should_run == 'true' && steps.scrape.outcome == 'success'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -198,7 +199,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         if: steps.schedule_gate.outputs.should_run == 'true'
-        id: deployment_final
+        id: deployment
         uses: actions/deploy-pages@v5
 
       - name: Summary
@@ -206,6 +207,10 @@ jobs:
         run: |
           echo "## Scrape & Deploy Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- **Institutes with active openings:** ${{ steps.scrape.outputs.result_count }}" >> $GITHUB_STEP_SUMMARY
+          if [ "${{ steps.scrape.outcome }}" == "failure" ]; then
+            echo "- **Scrape status:** FAILED — deployed with last known good data instead" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "- **Institutes with active openings:** ${{ steps.scrape.outputs.result_count }}" >> $GITHUB_STEP_SUMMARY
+          fi
           echo "- **Deployed at:** $(date -u)" >> $GITHUB_STEP_SUMMARY
-          echo "- **Pages URL:** ${{ steps.deployment_final.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Pages URL:** ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
