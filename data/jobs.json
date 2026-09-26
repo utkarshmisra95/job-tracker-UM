@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T00:53:38.832Z",
-  "totalActive": 9,
+  "generatedAt": "2026-09-26T00:55:14.719Z",
+  "totalActive": 11,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
     {
@@ -10,7 +10,7 @@
       "url": "https://www.iitm.ac.in/careers/prospective-faculty",
       "advertDate": "2025-04-11",
       "status": "active",
-      "checkedAt": "2026-09-25T00:19:15.914Z",
+      "checkedAt": "2026-09-26T00:24:19.956Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -60,13 +60,135 @@
       ]
     },
     {
+      "id": "iit-bombay",
+      "name": "IIT Bombay",
+      "type": "IIT",
+      "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
+      "advertDate": null,
+      "status": "active",
+      "checkedAt": "2026-09-26T00:25:03.409Z",
+      "pagesScanned": 30,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_science",
+          "departmentFamily": "environmental_science",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "rural_development",
+          "departmentFamily": "rural_development",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "environmental_science",
+          "departmentFamily": "environmental_science",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "rural_development",
+          "departmentFamily": "rural_development",
+          "deadline": "2026-12-31",
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": "rolling_cutoff",
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "iit-delhi",
       "name": "IIT Delhi",
       "type": "IIT",
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
       "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-09-25T00:20:08.451Z",
+      "checkedAt": "2026-09-26T00:25:27.804Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -199,7 +321,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-09-25T00:21:31.392Z",
+      "checkedAt": "2026-09-26T00:26:43.771Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -409,7 +531,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-09-25T00:26:08.254Z",
+      "checkedAt": "2026-09-26T00:30:59.187Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -487,8 +609,8 @@
       "url": "https://www.iitdh.ac.in/faculty-recruitment",
       "advertDate": "2019-05-01",
       "status": "active",
-      "checkedAt": "2026-09-25T00:30:35.685Z",
-      "pagesScanned": 16,
+      "checkedAt": "2026-09-26T00:34:36.083Z",
+      "pagesScanned": 26,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -521,7 +643,7 @@
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-09-25T00:31:50.168Z",
+      "checkedAt": "2026-09-26T00:35:20.288Z",
       "pagesScanned": 22,
       "jobs": [
         {
@@ -555,7 +677,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-09-25T00:34:17.924Z",
+      "checkedAt": "2026-09-26T00:36:50.469Z",
       "pagesScanned": 14,
       "jobs": [
         {
@@ -611,7 +733,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-09-25T00:42:42.303Z",
+      "checkedAt": "2026-09-26T00:44:55.795Z",
       "pagesScanned": 26,
       "jobs": [
         {
@@ -639,13 +761,47 @@
       ]
     },
     {
+      "id": "nit-goa",
+      "name": "NIT Goa",
+      "type": "NIT",
+      "url": "https://www.nitgoa.ac.in/uploads/faculty_recruitment2026/Advt_Faculty%20_%20Recruitment%2031august2026.pdf",
+      "advertDate": "2026-08-31",
+      "status": "active",
+      "checkedAt": "2026-09-26T00:51:18.042Z",
+      "pagesScanned": 19,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": "2026-09-30",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": "2026-09-30",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "nit-manipur",
       "name": "NIT Manipur",
       "type": "NIT",
       "url": "https://www.nitmanipur.ac.in/Final-NITMN-ADVERTISEMENT-FOR-RECRUITMENT.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-09-25T00:49:57.256Z",
+      "checkedAt": "2026-09-26T00:51:38.004Z",
       "pagesScanned": 26,
       "jobs": [
         {
