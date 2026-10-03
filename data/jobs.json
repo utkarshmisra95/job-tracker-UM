@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-02T02:01:21.485Z",
-  "totalActive": 10,
+  "generatedAt": "2026-10-03T01:37:42.058Z",
+  "totalActive": 9,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
     {
@@ -10,7 +10,7 @@
       "url": "https://www.iitm.ac.in/careers/prospective-faculty",
       "advertDate": "2025-04-11",
       "status": "active",
-      "checkedAt": "2026-10-02T01:20:59.776Z",
+      "checkedAt": "2026-10-03T00:58:42.704Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -66,7 +66,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:21:40.979Z",
+      "checkedAt": "2026-10-03T00:59:24.097Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -188,7 +188,7 @@
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
       "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-10-02T01:22:06.934Z",
+      "checkedAt": "2026-10-03T00:59:48.847Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -321,7 +321,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:23:29.212Z",
+      "checkedAt": "2026-10-03T01:01:07.301Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -531,7 +531,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:27:59.040Z",
+      "checkedAt": "2026-10-03T01:05:28.383Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -603,48 +603,14 @@
       ]
     },
     {
-      "id": "iit-dharwad",
-      "name": "IIT Dharwad",
-      "type": "IIT",
-      "url": "https://www.iitdh.ac.in/faculty-recruitment",
-      "advertDate": "2019-05-01",
-      "status": "active",
-      "checkedAt": "2026-10-02T01:32:11.683Z",
-      "pagesScanned": 26,
-      "jobs": [
-        {
-          "rank": "Assistant Professor",
-          "department": "chemical_engineering",
-          "departmentFamily": "chemical_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Associate Professor",
-          "department": "chemical_engineering",
-          "departmentFamily": "chemical_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        }
-      ]
-    },
-    {
       "id": "iit-goa",
       "name": "IIT Goa",
       "type": "IIT",
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:32:49.565Z",
-      "pagesScanned": 22,
+      "checkedAt": "2026-10-03T01:09:54.683Z",
+      "pagesScanned": 23,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -677,7 +643,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:35:17.667Z",
+      "checkedAt": "2026-10-03T01:11:42.023Z",
       "pagesScanned": 14,
       "jobs": [
         {
@@ -733,7 +699,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-10-02T01:51:59.204Z",
+      "checkedAt": "2026-10-03T01:28:13.816Z",
       "pagesScanned": 26,
       "jobs": [
         {
@@ -767,7 +733,7 @@
       "url": "https://www.nitmanipur.ac.in/Final-NITMN-ADVERTISEMENT-FOR-RECRUITMENT.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-02T01:57:34.492Z",
+      "checkedAt": "2026-10-03T01:33:57.217Z",
       "pagesScanned": 26,
       "jobs": [
         {
