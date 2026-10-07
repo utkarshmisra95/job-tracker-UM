@@ -1,64 +1,8 @@
 {
-  "generatedAt": "2026-10-06T02:36:30.431Z",
-  "totalActive": 9,
+  "generatedAt": "2026-10-07T01:47:33.883Z",
+  "totalActive": 10,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
-    {
-      "id": "iit-madras",
-      "name": "IIT Madras",
-      "type": "IIT",
-      "url": "https://www.iitm.ac.in/careers/prospective-faculty",
-      "advertDate": "2025-04-11",
-      "status": "active",
-      "checkedAt": "2026-10-06T02:05:34.839Z",
-      "pagesScanned": 30,
-      "jobs": [
-        {
-          "rank": "Assistant Professor",
-          "department": "environmental_engineering",
-          "departmentFamily": "environmental_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "environmental_science",
-          "departmentFamily": "environmental_science",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "civil_engineering",
-          "departmentFamily": "civil_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "sustainability",
-          "departmentFamily": "sustainability",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        }
-      ]
-    },
     {
       "id": "iit-bombay",
       "name": "IIT Bombay",
@@ -66,7 +10,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:06:16.979Z",
+      "checkedAt": "2026-10-07T01:15:31.840Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -186,11 +130,77 @@
       "name": "IIT Delhi",
       "type": "IIT",
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
-      "advertDate": "2026-04-06",
+      "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-10-06T02:06:42.808Z",
-      "pagesScanned": 4,
+      "checkedAt": "2026-10-07T01:15:58.079Z",
+      "pagesScanned": 30,
       "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "sustainability",
+          "departmentFamily": "sustainability",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "rural_development",
+          "departmentFamily": "rural_development",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "nanotechnology",
+          "departmentFamily": "nanotechnology",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
         {
           "rank": "Associate Professor",
           "department": "civil_engineering",
@@ -255,7 +265,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:07:33.836Z",
+      "checkedAt": "2026-10-07T01:17:19.536Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -465,7 +475,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:12:12.622Z",
+      "checkedAt": "2026-10-07T01:22:17.678Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -537,13 +547,47 @@
       ]
     },
     {
+      "id": "iit-dharwad",
+      "name": "IIT Dharwad",
+      "type": "IIT",
+      "url": "https://www.iitdh.ac.in/faculty-recruitment",
+      "advertDate": "2019-05-01",
+      "status": "active",
+      "checkedAt": "2026-10-07T01:26:40.957Z",
+      "pagesScanned": 16,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "iit-goa",
       "name": "IIT Goa",
       "type": "IIT",
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:16:57.916Z",
+      "checkedAt": "2026-10-07T01:28:11.320Z",
       "pagesScanned": 23,
       "jobs": [
         {
@@ -577,7 +621,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:18:33.934Z",
+      "checkedAt": "2026-10-07T01:30:22.889Z",
       "pagesScanned": 14,
       "jobs": [
         {
@@ -633,7 +677,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-10-06T02:26:08.959Z",
+      "checkedAt": "2026-10-07T01:37:50.930Z",
       "pagesScanned": 26,
       "jobs": [
         {
@@ -661,13 +705,69 @@
       ]
     },
     {
+      "id": "nit-goa",
+      "name": "NIT Goa",
+      "type": "NIT",
+      "url": "https://www.nitgoa.ac.in/uploads/faculty_recruitment2026/Corrigendum_Fac_Recruitment%202026.pdf",
+      "advertDate": "2026-09-29",
+      "status": "active",
+      "checkedAt": "2026-10-07T01:42:53.258Z",
+      "pagesScanned": 19,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": "2026-10-07",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": "2026-10-07",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": "2026-10-07",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": "2026-10-07",
+          "rolling": false,
+          "applicationMode": "Fixed deadline",
+          "confidence": "high",
+          "deadlineType": "application_deadline",
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "nit-manipur",
       "name": "NIT Manipur",
       "type": "NIT",
       "url": "https://www.nitmanipur.ac.in/Final-NITMN-ADVERTISEMENT-FOR-RECRUITMENT.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-06T02:32:18.522Z",
+      "checkedAt": "2026-10-07T01:43:18.101Z",
       "pagesScanned": 26,
       "jobs": [
         {
