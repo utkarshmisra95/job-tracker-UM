@@ -1,64 +1,8 @@
 {
-  "generatedAt": "2026-10-13T03:22:39.078Z",
-  "totalActive": 10,
+  "generatedAt": "2026-10-14T01:22:35.845Z",
+  "totalActive": 9,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
-    {
-      "id": "iit-madras",
-      "name": "IIT Madras",
-      "type": "IIT",
-      "url": "https://www.iitm.ac.in/careers/prospective-faculty",
-      "advertDate": "2025-04-11",
-      "status": "active",
-      "checkedAt": "2026-10-13T02:52:33.028Z",
-      "pagesScanned": 30,
-      "jobs": [
-        {
-          "rank": "Assistant Professor",
-          "department": "environmental_engineering",
-          "departmentFamily": "environmental_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "environmental_science",
-          "departmentFamily": "environmental_science",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "civil_engineering",
-          "departmentFamily": "civil_engineering",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        },
-        {
-          "rank": "Assistant Professor",
-          "department": "sustainability",
-          "departmentFamily": "sustainability",
-          "deadline": null,
-          "rolling": true,
-          "applicationMode": "Rolling basis",
-          "confidence": "high",
-          "deadlineType": null,
-          "notes": null
-        }
-      ]
-    },
     {
       "id": "iit-bombay",
       "name": "IIT Bombay",
@@ -66,7 +10,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T02:53:16.923Z",
+      "checkedAt": "2026-10-14T00:55:49.885Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -188,7 +132,7 @@
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
       "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-10-13T02:53:44.826Z",
+      "checkedAt": "2026-10-14T00:56:18.601Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -321,7 +265,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T02:55:10.620Z",
+      "checkedAt": "2026-10-14T00:57:39.750Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -531,7 +475,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T02:59:53.662Z",
+      "checkedAt": "2026-10-14T01:02:07.213Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -609,7 +553,7 @@
       "url": "https://www.iitdh.ac.in/faculty-recruitment",
       "advertDate": "2019-05-01",
       "status": "active",
-      "checkedAt": "2026-10-13T03:03:53.083Z",
+      "checkedAt": "2026-10-14T01:06:11.969Z",
       "pagesScanned": 26,
       "jobs": [
         {
@@ -643,8 +587,8 @@
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T03:05:14.342Z",
-      "pagesScanned": 19,
+      "checkedAt": "2026-10-14T01:06:45.464Z",
+      "pagesScanned": 23,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -677,7 +621,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T03:07:26.531Z",
+      "checkedAt": "2026-10-14T01:08:05.215Z",
       "pagesScanned": 12,
       "jobs": [
         {
@@ -733,7 +677,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-10-13T03:12:24.754Z",
+      "checkedAt": "2026-10-14T01:12:56.449Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -767,7 +711,7 @@
       "url": "https://www.nitmanipur.ac.in/Final-NITMN-ADVERTISEMENT-FOR-RECRUITMENT.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-13T03:18:45.283Z",
+      "checkedAt": "2026-10-14T01:18:24.853Z",
       "pagesScanned": 27,
       "jobs": [
         {
