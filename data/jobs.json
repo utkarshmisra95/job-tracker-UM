@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T02:40:08.922Z",
-  "totalActive": 8,
+  "generatedAt": "2026-10-29T02:44:21.834Z",
+  "totalActive": 9,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
     {
@@ -10,7 +10,7 @@
       "url": "https://www.iitm.ac.in/careers/prospective-faculty",
       "advertDate": "2025-04-11",
       "status": "active",
-      "checkedAt": "2026-10-28T02:06:10.043Z",
+      "checkedAt": "2026-10-29T02:16:30.809Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -66,7 +66,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-28T02:06:58.236Z",
+      "checkedAt": "2026-10-29T02:17:14.144Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -182,13 +182,146 @@
       ]
     },
     {
+      "id": "iit-delhi",
+      "name": "IIT Delhi",
+      "type": "IIT",
+      "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
+      "advertDate": "2026-04-23",
+      "status": "active",
+      "checkedAt": "2026-10-29T02:17:39.841Z",
+      "pagesScanned": 12,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "environmental_engineering",
+          "departmentFamily": "environmental_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "sustainability",
+          "departmentFamily": "sustainability",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "rural_development",
+          "departmentFamily": "rural_development",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Assistant Professor",
+          "department": "nanotechnology",
+          "departmentFamily": "nanotechnology",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "civil_engineering",
+          "departmentFamily": "civil_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "sustainability",
+          "departmentFamily": "sustainability",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "chemical_engineering",
+          "departmentFamily": "chemical_engineering",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "rural_development",
+          "departmentFamily": "rural_development",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "nanotechnology",
+          "departmentFamily": "nanotechnology",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "iit-kharagpur",
       "name": "IIT Kharagpur",
       "type": "IIT",
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-28T02:08:22.180Z",
+      "checkedAt": "2026-10-29T02:18:41.730Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -398,7 +531,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-28T02:13:47.919Z",
+      "checkedAt": "2026-10-29T02:23:14.214Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -476,7 +609,7 @@
       "url": "https://www.iitdh.ac.in/faculty-recruitment",
       "advertDate": "2019-05-01",
       "status": "active",
-      "checkedAt": "2026-10-28T02:18:37.430Z",
+      "checkedAt": "2026-10-29T02:27:54.645Z",
       "pagesScanned": 24,
       "jobs": [
         {
@@ -510,7 +643,7 @@
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-28T02:20:55.487Z",
+      "checkedAt": "2026-10-29T02:28:49.342Z",
       "pagesScanned": 23,
       "jobs": [
         {
@@ -544,7 +677,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-10-28T02:24:19.886Z",
+      "checkedAt": "2026-10-29T02:31:23.907Z",
       "pagesScanned": 11,
       "jobs": [
         {
@@ -600,7 +733,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-10-28T02:28:06.683Z",
+      "checkedAt": "2026-10-29T02:34:59.330Z",
       "pagesScanned": 30,
       "jobs": [
         {
