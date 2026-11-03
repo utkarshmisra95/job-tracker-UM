@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T02:51:17.197Z",
-  "totalActive": 9,
+  "generatedAt": "2026-11-03T04:26:54.014Z",
+  "totalActive": 10,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
     {
@@ -10,7 +10,7 @@
       "url": "https://www.iitm.ac.in/careers/prospective-faculty",
       "advertDate": "2025-04-11",
       "status": "active",
-      "checkedAt": "2026-11-02T02:18:15.133Z",
+      "checkedAt": "2026-11-03T03:53:45.079Z",
       "pagesScanned": 28,
       "jobs": [
         {
@@ -66,7 +66,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-02T02:18:52.419Z",
+      "checkedAt": "2026-11-03T03:54:22.385Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -188,7 +188,7 @@
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
       "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-11-02T02:19:17.575Z",
+      "checkedAt": "2026-11-03T03:54:47.464Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -321,7 +321,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-02T02:20:36.735Z",
+      "checkedAt": "2026-11-03T03:56:07.031Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -377,7 +377,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-02T02:25:43.075Z",
+      "checkedAt": "2026-11-03T04:01:08.292Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -455,7 +455,7 @@
       "url": "https://www.iitdh.ac.in/faculty-recruitment",
       "advertDate": "2019-05-01",
       "status": "active",
-      "checkedAt": "2026-11-02T02:30:05.108Z",
+      "checkedAt": "2026-11-03T04:05:52.054Z",
       "pagesScanned": 24,
       "jobs": [
         {
@@ -483,13 +483,47 @@
       ]
     },
     {
+      "id": "iit-goa",
+      "name": "IIT Goa",
+      "type": "IIT",
+      "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
+      "advertDate": null,
+      "status": "active",
+      "checkedAt": "2026-11-03T04:06:57.017Z",
+      "pagesScanned": 19,
+      "jobs": [
+        {
+          "rank": "Assistant Professor",
+          "department": "sustainability",
+          "departmentFamily": "sustainability",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        },
+        {
+          "rank": "Associate Professor",
+          "department": "sustainability",
+          "departmentFamily": "sustainability",
+          "deadline": null,
+          "rolling": true,
+          "applicationMode": "Rolling basis",
+          "confidence": "high",
+          "deadlineType": null,
+          "notes": null
+        }
+      ]
+    },
+    {
       "id": "nit-calicut",
       "name": "NIT Calicut",
       "type": "NIT",
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-02T02:33:13.830Z",
+      "checkedAt": "2026-11-03T04:10:42.266Z",
       "pagesScanned": 11,
       "jobs": [
         {
@@ -545,7 +579,7 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-11-02T02:41:11.519Z",
+      "checkedAt": "2026-11-03T04:17:06.653Z",
       "pagesScanned": 28,
       "jobs": [
         {
@@ -579,7 +613,7 @@
       "url": "https://nitmz.ac.in/wp-content/uploads/2026/10/NIT-Mizoram_Advertisement-for-Faculty-Recruitment-Vol-16_30.10.2026.pdf",
       "advertDate": "2026-10-30",
       "status": "active",
-      "checkedAt": "2026-11-02T02:48:40.717Z",
+      "checkedAt": "2026-11-03T04:24:16.800Z",
       "pagesScanned": 30,
       "jobs": [
         {
