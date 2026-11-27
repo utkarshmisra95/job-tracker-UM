@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T05:34:13.592Z",
+  "generatedAt": "2026-11-27T05:32:18.114Z",
   "totalActive": 10,
   "scraper": "v2 — homepage crawl, 3-hop depth",
   "results": [
@@ -10,7 +10,7 @@
       "url": "https://www.iitm.ac.in/careers/prospective-faculty",
       "advertDate": "2025-04-11",
       "status": "active",
-      "checkedAt": "2026-11-26T04:52:35.060Z",
+      "checkedAt": "2026-11-27T04:54:11.890Z",
       "pagesScanned": 28,
       "jobs": [
         {
@@ -66,7 +66,7 @@
       "url": "https://www.iitb.ac.in/job-vacancy-ad/rolling-advertisement-no-l-1025-26",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-26T04:53:13.262Z",
+      "checkedAt": "2026-11-27T04:54:49.568Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -188,8 +188,8 @@
       "url": "https://home.iitd.ac.in/jobs-iitd/index.php",
       "advertDate": "2026-04-23",
       "status": "active",
-      "checkedAt": "2026-11-26T04:53:39.425Z",
-      "pagesScanned": 13,
+      "checkedAt": "2026-11-27T04:55:15.414Z",
+      "pagesScanned": 30,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -321,7 +321,7 @@
       "url": "https://erp.iitkgp.ac.in/Jobs/auth/facapps.htm",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-26T04:54:58.455Z",
+      "checkedAt": "2026-11-27T04:56:54.785Z",
       "pagesScanned": 2,
       "jobs": [
         {
@@ -377,7 +377,7 @@
       "url": "https://iitgn.ac.in/careers/faculty-rolling-advertisement",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-26T05:00:44.375Z",
+      "checkedAt": "2026-11-27T05:01:40.557Z",
       "pagesScanned": 30,
       "jobs": [
         {
@@ -455,7 +455,7 @@
       "url": "https://www.iitdh.ac.in/faculty-recruitment",
       "advertDate": "2019-05-01",
       "status": "active",
-      "checkedAt": "2026-11-26T05:04:57.672Z",
+      "checkedAt": "2026-11-27T05:05:37.357Z",
       "pagesScanned": 15,
       "jobs": [
         {
@@ -489,8 +489,8 @@
       "url": "https://iitgoa.ac.in/wp-content/uploads/Rolling-Advertisement-Updated-v1-21.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-26T05:06:19.834Z",
-      "pagesScanned": 23,
+      "checkedAt": "2026-11-27T05:06:57.031Z",
+      "pagesScanned": 19,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -523,7 +523,7 @@
       "url": "https://nitc.ac.in/imgserver/uploads/attachments/Ed__abdfa712-5dc5-4488-a83a-69bbb09d0aba_.pdf",
       "advertDate": null,
       "status": "active",
-      "checkedAt": "2026-11-26T05:09:32.988Z",
+      "checkedAt": "2026-11-27T05:10:09.287Z",
       "pagesScanned": 11,
       "jobs": [
         {
@@ -579,8 +579,8 @@
       "url": "https://www.nits.ac.in/faculty-recruitment-2026",
       "advertDate": "2026-05-20",
       "status": "active",
-      "checkedAt": "2026-11-26T05:17:41.038Z",
-      "pagesScanned": 30,
+      "checkedAt": "2026-11-27T05:15:50.060Z",
+      "pagesScanned": 29,
       "jobs": [
         {
           "rank": "Assistant Professor",
@@ -613,7 +613,7 @@
       "url": "https://nitmz.ac.in/wp-content/uploads/2026/10/NIT-Mizoram_Advertisement-for-Faculty-Recruitment-Vol-16_30.10.2026.pdf",
       "advertDate": "2026-10-30",
       "status": "active",
-      "checkedAt": "2026-11-26T05:31:15.297Z",
+      "checkedAt": "2026-11-27T05:29:34.421Z",
       "pagesScanned": 30,
       "jobs": [
         {
